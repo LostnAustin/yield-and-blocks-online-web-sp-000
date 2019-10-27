@@ -4,9 +4,11 @@ def hello_t(array)
       #yield each member of array  to the block that is passed into hello_t
       yield array[i]
       i = i + 1
+
 end
 array
 #return original array instead of nil
+else put "Hey! No block was given!"
 end
 # call your method here!
 
