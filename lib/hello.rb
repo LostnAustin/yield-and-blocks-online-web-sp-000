@@ -8,7 +8,7 @@ def hello_t(array)
 end
 array
 #return original array instead of nil
- puts "Hey! No block was given!"
+else i = array.length puts "Hey! No block was given!"
 end
 # call your method here!
 
