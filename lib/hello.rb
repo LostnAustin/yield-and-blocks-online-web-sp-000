@@ -8,9 +8,9 @@ def hello_t(array)
 end
 array
 #return original array instead of nil
-else
-  puts "Hey! No block was given!"
-end
+  else
+    puts "Hey! No block was given!"
+  end
 end
 # call your method here!
 
