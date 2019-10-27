@@ -4,7 +4,8 @@ def hello_t(array)
       #yield each member of array  to the block that is passed into hello_t
       yield array[i]
       i += 1
-
+end
+end
 # call your method here!
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
@@ -12,5 +13,4 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
     puts "Hi, #{name}"
   end
 end
-end
-end
+
