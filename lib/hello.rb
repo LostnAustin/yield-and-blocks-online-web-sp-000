@@ -3,7 +3,7 @@ def hello_t(array)
     while i < array.length
       #yield each member of array  to the block that is passed into hello_t
       yield array[i]
-      i += 1
+      i = i + 1
 end
 end
 # call your method here!
