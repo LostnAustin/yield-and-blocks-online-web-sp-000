@@ -1,5 +1,6 @@
 def hello_t(array)
   if block_given?
+    #used with the "else" statement below
   i = 0
     while i < array.length
       #yield each member of array  to the block that is passed into hello_t
